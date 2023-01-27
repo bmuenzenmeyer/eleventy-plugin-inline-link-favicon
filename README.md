@@ -1,0 +1,1 @@
+# eleventy-plugin-inline-link-favicon

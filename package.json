@@ -1,6 +1,6 @@
 {
 	"name": "eleventy-plugin-inline-link-favicon",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Adds an inline image of the link's domain's favicon",
 	"main": ".eleventy.js",
 	"scripts": {

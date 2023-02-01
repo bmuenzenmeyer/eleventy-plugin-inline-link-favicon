@@ -2,7 +2,7 @@
 
 Eleventy shortcodes and filters to add an inline favicon image to a link.
 
-![]()
+![A screenshot of the plugins output. Links display their favicon inline.](/screenshot.png)
 
 ## Install
 

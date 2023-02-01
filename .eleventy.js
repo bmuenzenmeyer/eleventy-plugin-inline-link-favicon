@@ -2,10 +2,10 @@ const SERVICE_BASE = `https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICO
 
 module.exports = (eleventyConfig, options) => {
 	const defaults = {
-		size: "1",
+		size: 128,
 	}
 
-	eleventyConfig.addPairedShortcode("ai", function (content, href, size = 1) {
+	eleventyConfig.addPairedShortcode("ai", function (content, href, size = 128) {
 		return `<a  href="${href}"><img style="max-height: 1em; position: relative; top: .2em; margin-right: .2em" src="${SERVICE_BASE.replace("%%URL%%", href).replace("%%SIZE%%", size)}"/>${content}</a>`
 	})
 

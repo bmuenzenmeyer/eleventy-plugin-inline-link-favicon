@@ -1,0 +1,29 @@
+{
+	"name": "eleventy-plugin-inline-link-favicon",
+	"version": "1.0.0",
+	"description": "Adds an inline image of the link's domain's favicon",
+	"main": ".eleventy.js",
+	"scripts": {
+		"start": "eleventy --serve",
+		"build": "eleventy"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bmuenzenmeyer/eleventy-plugin-inline-link-favicon.git"
+	},
+	"keywords": [
+		"eleventy",
+		"link",
+		"favicon",
+		"preview"
+	],
+	"author": "brian.muenzenmeyer@gmail.com",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/bmuenzenmeyer/eleventy-plugin-inline-link-favicon/issues"
+	},
+	"homepage": "https://github.com/bmuenzenmeyer/eleventy-plugin-inline-link-favicon#readme",
+	"devDependencies": {
+		"@11ty/eleventy": "2.0.0-beta.3"
+	}
+}

@@ -1,0 +1,2 @@
+- Paired Shortcode: {% ai "https://www.11ty.dev/docs/shortcodes/#paired-shortcodes" %}paired shortcode docs{% endai %}
+- Filter: {{ "https://www.11ty.dev/docs/filters/" | ai("filter docs") | safe }}

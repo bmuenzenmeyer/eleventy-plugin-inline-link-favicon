@@ -15,7 +15,7 @@ module.exports = (eleventyConfig, options) => {
 			...options,
 		}
 
-		return `<a href="${href}"><img style="max-height: 1em; position: relative; top: .2em; margin-right: .2em" src="${SERVICE_BASE.replace(
+		return `<a href="${href}"><img alt="favicon for ${href}" style="max-height: 1em; position: relative; top: .2em; margin-right: .2em" src="${SERVICE_BASE.replace(
 			"%%URL%%",
 			href
 		).replace("%%SIZE%%", size)}"/>${text}</a>`

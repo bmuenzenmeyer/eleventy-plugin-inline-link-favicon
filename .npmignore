@@ -1,6 +1,8 @@
+.github/
 .editorconfig
 .prettierrc.js
 _includes
 _site
 tests
 index.md
+CODE_OF_CONDUCT.md

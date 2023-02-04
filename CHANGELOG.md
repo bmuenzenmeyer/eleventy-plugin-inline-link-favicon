@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.4](https://github.com/bmuenzenmeyer/eleventy-plugin-inline-link-favicon/compare/v1.0.3...v1.0.4) (2023-02-04)
+
+
+### Bug Fixes
+
+* **plugin:** add alt tag to paired shortcode ([f2b771a](https://github.com/bmuenzenmeyer/eleventy-plugin-inline-link-favicon/commit/f2b771a7fa7958924b553bf789b606e009a1fca3))
+
 ### [1.0.3](https://github.com/bmuenzenmeyer/eleventy-plugin-inline-link-favicon/compare/v1.0.2...v1.0.3) (2023-02-01)
 
 

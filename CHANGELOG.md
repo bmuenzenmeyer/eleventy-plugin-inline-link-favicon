@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.5](https://github.com/bmuenzenmeyer/eleventy-plugin-inline-link-favicon/compare/v1.0.4...v1.0.5) (2023-02-04)
+
+
+### Bug Fixes
+
+* **package:** exclude more files from npm pack ([d32b7fd](https://github.com/bmuenzenmeyer/eleventy-plugin-inline-link-favicon/commit/d32b7fd281ddf822fa2c0f7df1b021a635c08b01))
+* **README:** the size of the image is too damn high! ([abc7eee](https://github.com/bmuenzenmeyer/eleventy-plugin-inline-link-favicon/commit/abc7eee1274d09088e39821c6daa29cc6264ea7e))
+
 ### [1.0.4](https://github.com/bmuenzenmeyer/eleventy-plugin-inline-link-favicon/compare/v1.0.3...v1.0.4) (2023-02-04)
 
 

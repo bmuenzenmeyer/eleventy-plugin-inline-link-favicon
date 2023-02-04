@@ -4,7 +4,7 @@ Eleventy shortcodes and filters to add an inline favicon image to a link.
 
 [![A screenshot of the plugins output. Links display their favicon inline.](/screenshot.png)](https://eleventy-plugin-inline-link-favicon.netlify.app/)
 
-[Live Demo](https://eleventy-plugin-inline-link-favicon.netlify.app/)
+[Live Demo](https://eleventy-plugin-inline-link-favicon.netlify.app/) | [Blog Demo](https://brianmuenzenmeyer.com/hubs/opensource/)
 
 ## Install
 

@@ -6,7 +6,7 @@ module.exports = (eleventyConfig, options) => {
 	}
 
 	eleventyConfig.addPairedShortcode("ai", function (content, href, size = 128) {
-		return `<a  href="${href}"><img style="max-height: 1em; position: relative; top: .2em; margin-right: .2em" src="${SERVICE_BASE.replace("%%URL%%", href).replace("%%SIZE%%", size)}"/>${content}</a>`
+		return `<a  href="${href}"><img alt="favicon for ${href}" style="max-height: 1em; position: relative; top: .2em; margin-right: .2em" src="${SERVICE_BASE.replace("%%URL%%", href).replace("%%SIZE%%", size)}"/>${content}</a>`
 	})
 
 	eleventyConfig.addFilter("ai", (href, text) => {

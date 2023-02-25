@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/bmuenzenmeyer/eleventy-plugin-inline-link-favicon/compare/v1.0.5...v1.1.0) (2023-02-25)
+
+
+### Features
+
+* **docs:** Add VS Code snippet to README ([2483631](https://github.com/bmuenzenmeyer/eleventy-plugin-inline-link-favicon/commit/24836318f8f2783993e2a4f4a3f49372f852233a)), closes [#12](https://github.com/bmuenzenmeyer/eleventy-plugin-inline-link-favicon/issues/12)
+* **plugin:** add loading=lazy to image ([89550ea](https://github.com/bmuenzenmeyer/eleventy-plugin-inline-link-favicon/commit/89550eabd9dac0194b06a8cd045c821e3cd31572))
+* **plugin:** extract repeated markup ([f51c55c](https://github.com/bmuenzenmeyer/eleventy-plugin-inline-link-favicon/commit/f51c55c8fd9bd10c55d7fb91b261168341c59909)), closes [#2](https://github.com/bmuenzenmeyer/eleventy-plugin-inline-link-favicon/issues/2)
+* **README:** add blog demo ([497912a](https://github.com/bmuenzenmeyer/eleventy-plugin-inline-link-favicon/commit/497912a5aa1fb8b5b7787757bf5b0dafcac2ec81))
+* **README:** adds markdown-inject ([ebc316e](https://github.com/bmuenzenmeyer/eleventy-plugin-inline-link-favicon/commit/ebc316e4029a517669bd85a2390958145c812fde)), closes [#11](https://github.com/bmuenzenmeyer/eleventy-plugin-inline-link-favicon/issues/11)
+
 ### [1.0.5](https://github.com/bmuenzenmeyer/eleventy-plugin-inline-link-favicon/compare/v1.0.4...v1.0.5) (2023-02-04)
 
 

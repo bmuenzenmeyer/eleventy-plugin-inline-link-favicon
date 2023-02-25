@@ -28,7 +28,7 @@ module.exports = (eleventyConfig) => {
 
 This plugin comes with two mechanisms to create an inline link favicon. You can use a [paired shortcode](https://www.11ty.dev/docs/shortcodes/#paired-shortcodes) or a [filter](https://www.11ty.dev/docs/filters/), both referenced as `ai`. `ai` is short for anchor-image.
 
-## Paired Shortcode
+### Paired Shortcode
 
 ```md
 {% ai "https://front-end.social/@brian" %}@brian{% endai %}
@@ -45,13 +45,30 @@ returns
 >
 ```
 
-## Filter
+### Filter
 
 ```md
 {{ "https://front-end.social/@brian" | ai("@brian") | safe }}
 ```
 
 returns the same as above.
+
+### Snippets / Completions
+
+Authoring content with this plugin is aided by user-defined snippets:
+
+- [Visual Studio Code](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
+
+  ```json
+  {
+  	"ai": {
+  		"scope": "markdown,nunjucks",
+  		"prefix": "ai",
+  		"body": ["{% ai \"$1\"%}$2{% endai %}$0"],
+  		"description": "add an inline link favicon"
+  	}
+  }
+  ```
 
 ## Credits
 

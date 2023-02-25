@@ -28,30 +28,61 @@ module.exports = (eleventyConfig) => {
 
 This plugin comes with two mechanisms to create an inline link favicon. You can use a [paired shortcode](https://www.11ty.dev/docs/shortcodes/#paired-shortcodes) or a [filter](https://www.11ty.dev/docs/filters/), both referenced as `ai`. `ai` is short for anchor-image.
 
-## Paired Shortcode
+### Paired Shortcode
 
-```md
+<!-- CODEBLOCK_START {"value": "demo/paired-shortcode.njk", "hideValue": true} -->
+<!-- prettier-ignore -->
+~~~~~~~~~~njk
 {% ai "https://front-end.social/@brian" %}@brian{% endai %}
-```
+~~~~~~~~~~
+
+<!-- CODEBLOCK_END -->
 
 returns
 
-```html
+<!-- CODEBLOCK_START {"value": "_site/demo/paired-shortcode/index.html", "hideValue": true} -->
+<!-- prettier-ignore -->
+~~~~~~~~~~html
 <a href="https://front-end.social/@brian"
 	><img
-		style="max-height: 1em; position: relative; top: .2em; margin-right: .2em"
-		src="https://t1.gstatic.com/faviconV2?client=SOCIAL&amp;type=FAVICON&amp;fallback_opts=TYPE,SIZE,URL&amp;url=https://front-end.social/@brian&amp;size=1"
+		alt="favicon for https://front-end.social/@brian"
+		loading="lazy"
+		style="max-height: 1em; position: relative; top: 0.2em; margin-right: 0.2em"
+		src="https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://front-end.social/@brian&size=128"
 	/>@brian</a
 >
-```
+~~~~~~~~~~
 
-## Filter
+<!-- CODEBLOCK_END -->
 
-```md
+### Filter
+
+<!-- CODEBLOCK_START {"value": "demo/filter.njk", "hideValue": true} -->
+<!-- prettier-ignore -->
+~~~~~~~~~~njk
 {{ "https://front-end.social/@brian" | ai("@brian") | safe }}
-```
+~~~~~~~~~~
+
+<!-- CODEBLOCK_END -->
 
 returns the same as above.
+
+### Snippets / Completions
+
+Authoring content with this plugin is aided by user-defined snippets:
+
+- [Visual Studio Code](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
+
+  ```json
+  {
+  	"ai": {
+  		"scope": "markdown,nunjucks",
+  		"prefix": "ai",
+  		"body": ["{% ai \"$1\"%}$2{% endai %}$0"],
+  		"description": "add an inline link favicon"
+  	}
+  }
+  ```
 
 ## Credits
 

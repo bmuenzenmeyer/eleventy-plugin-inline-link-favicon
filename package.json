@@ -5,7 +5,7 @@
 	"main": ".eleventy.js",
 	"scripts": {
 		"start": "eleventy --serve",
-		"build": "eleventy"
+		"build": "eleventy && prettier --write _site/demo/** && markdown-inject -a"
 	},
 	"repository": {
 		"type": "git",
@@ -24,6 +24,8 @@
 	},
 	"homepage": "https://github.com/bmuenzenmeyer/eleventy-plugin-inline-link-favicon#readme",
 	"devDependencies": {
-		"@11ty/eleventy": "2.0.0-beta.3"
+		"@11ty/eleventy": "2.0.0-beta.3",
+		"markdown-inject": "3.1.1",
+		"prettier": "2.8.4"
 	}
 }

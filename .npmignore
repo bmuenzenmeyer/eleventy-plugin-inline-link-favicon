@@ -3,6 +3,7 @@
 .prettierrc.js
 _includes
 _site
+demo
 tests
 index.md
 CODE_OF_CONDUCT.md
